@@ -1,0 +1,72 @@
+body{
+    user-select: none;
+    background-color: rgb(35,35,35);
+    font-family: sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    max-width: 500px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    padding-bottom: 0px;
+    background-color: rgb(153, 180, 0);
+}
+.value {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: white;
+    background-color: tomato;
+    border-radius: 50px;
+}   
+.value:hover{
+    font-size: 25px;
+    background-color: rgb(255, 160, 144);
+    padding: 5px;
+}
+
+.okno{
+    width: 100%;
+    grid-row: 1/10;
+    padding: 5px;
+}
+input {
+    outline: none;
+    height: 390px;
+    border-radius: 20px;
+    background-color: rgb(168, 230, 255);
+}
+.ravno{
+    grid-column: 3/5;
+    grid-row: 7;
+    width: 100%;
+    background-color: tomato;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.tochka{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: white;
+    background-color: tomato;
+    border-radius: 50px;
+}
